@@ -1,3 +1,3 @@
 echo "Loading IPTables to make it safe(r)"
-iptables-restore < config/iptables.2load
+config/iptables.sh
 echo "Completed IPTables load"
